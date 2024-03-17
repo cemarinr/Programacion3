@@ -1,0 +1,36 @@
+body {
+  background-color: #212126;
+  text-align: left;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  /* tamaño de la letra   */
+  font-optical-sizing: auto;
+  /* Grosor de la letra  */
+  font-weight: normal;
+  font-style: normal;
+  /* Color de la letra  */
+  color: #b6b2b2;
+}
+a {
+  text-decoration: none;
+  color: #b6b2b2;
+}
+
+h1,
+h2,
+.denotados {
+  color: #fff;
+}
+
+.img {
+  /* ancho de la imagen  */
+  width: 10%;
+  /* largo de la imagen  */
+  height: 20%;
+}
+section {
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid #b6b2b2;
+  border-radius: 8px;
+}
