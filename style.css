@@ -6,7 +6,7 @@ body {
   /* tamaño de la letra   */
   font-optical-sizing: auto;
   /* Grosor de la letra  */
-  font-weight: normal;
+  font-weight: weight;
   font-style: normal;
   /* Color de la letra  */
   color: #b6b2b2;
@@ -33,4 +33,40 @@ section {
   padding: 50px;
   border: 1px solid #b6b2b2;
   border-radius: 8px;
+}
+
+th,
+td {
+  text-align: center;
+  background-color: #d8d8d8c9;
+  color: #050404;
+  border-color: #b6b2b2;
+}
+
+nav a {
+  text-align: center;
+  font-weight: weight;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #b6b2b2;
+  transition: 0.3s;
+}
+nav a:hover::before {
+  width: 100%;
+}
+#div_nav {
+  display: grid;
+  justify-content: end;
 }
